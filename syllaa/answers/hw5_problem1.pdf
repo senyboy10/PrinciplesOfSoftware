@@ -1,0 +1,23 @@
+1. The functions X m(X y, String s) and Y m(Object y, Object s) are function subtypes. 
+	
+  The functions: 
+-  X m(X y, String s) would be overriding. 
+-  Y m(Object y, object s) would be overloading 
+-  Object m(X y, String s) would be overriding. 
+-  Z m(Y y, String s) would be overloading. 
+
+2. 
+	1. No, 
+	IsoscelesTriangle is not a true subtype of Triangle since not every IsoscelesTriangle 
+	can be a Triangle. That been said, if the values in the Triangle constructor are all different,
+	 it cannot be replaced with an IsoscelesTriangle constructor and expect to represent the same Triangle. 
+	 
+	 2. Squid is not a true subtype as you cannot use Squids everywhere where there are Vertebrate. Some animals may have neck bones. 
+		Human is a true subtype of Vertebrate since all Humans are Vertebrate, and the Vertebrate needs more than 0 (>0) neckBones and Humans return 
+		7 neckBones. 
+		
+	3. MountainBike is NOT a true subtype of Bicycle because it has an extra parameter in the constructor. Wherever you 
+	   make the a Bicycle,  a MountainBike cannot be made since there is no startHeight var. 
+	   
+	4. n Account cannot substitute a ConcurrentAccount , therefore ConcurrentAccount is not a true subtype of Account. also may not
+		return the same information as an Account with the same values depending on if two people are using the ConcurrentAccount. 

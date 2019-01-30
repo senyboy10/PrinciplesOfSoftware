@@ -1,0 +1,10 @@
+Name: Alseny Sylla
+
+Model ----> CampusPathsModel
+	  ----> CampusParsing
+	  ---->Edge
+	  ---->Graph
+	
+View----> CampusPathsModel.getDirection
+
+Controller ---> CampusPaths.main

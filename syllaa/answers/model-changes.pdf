@@ -1,0 +1,16 @@
+	List of changes made to Homework7 model:
+( Why changes were necessary and what I could have done better to create a more general and reusable model)
+( If the answer is None, then No changes were made)
+
+I made a lot of changes to this part of the homework. 
+
+1) I added a new method called read_directions(node1, node2) that returns correct building/intersection IDs
+	with their respective coordinates.
+	it is a LinkedHashMap<String, ArrayList<Integer> >.
+						  String is the ID of the building/intersection
+						  ArrayList<Integer> holds the x and y value of the building/intersection
+2) I added couples variables to help implement the read_diections. 
+	~an ArrayList<String> called valid_route which represents correct building/intersection IDS
+	~an Accessor method called convertNameToID(type String) which helps me convert
+		the name of the building the user selects on the interface to the building building ID 
+	
